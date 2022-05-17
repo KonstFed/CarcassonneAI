@@ -4,7 +4,7 @@ namespace GameCore
     {
         public Tile start;
         public Tile end;
-        public int closedEnds;
+        public int openEnds;
          
 
     }
