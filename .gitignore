@@ -1,5 +1,2 @@
 /.vscode
-/bin
-/CarcassonneAI.csproj
-/obj
 /Program.cs

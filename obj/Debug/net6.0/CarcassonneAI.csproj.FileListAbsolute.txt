@@ -1,0 +1,15 @@
+C:\projects\CarcassonneAI\bin\Debug\net6.0\CarcassonneAI.exe
+C:\projects\CarcassonneAI\bin\Debug\net6.0\CarcassonneAI.deps.json
+C:\projects\CarcassonneAI\bin\Debug\net6.0\CarcassonneAI.runtimeconfig.json
+C:\projects\CarcassonneAI\bin\Debug\net6.0\CarcassonneAI.dll
+C:\projects\CarcassonneAI\bin\Debug\net6.0\CarcassonneAI.pdb
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.csproj.AssemblyReference.cache
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.AssemblyInfoInputs.cache
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.AssemblyInfo.cs
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.csproj.CoreCompileInputs.cache
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.dll
+C:\projects\CarcassonneAI\obj\Debug\net6.0\refint\CarcassonneAI.dll
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.pdb
+C:\projects\CarcassonneAI\obj\Debug\net6.0\CarcassonneAI.genruntimeconfig.cache
+C:\projects\CarcassonneAI\obj\Debug\net6.0\ref\CarcassonneAI.dll
