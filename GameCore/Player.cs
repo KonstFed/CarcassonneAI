@@ -1,9 +1,8 @@
-namespace GameCore
+namespace GameCore;
+
+public class Player
 {
-    public class Player
-    {
-        public int id;
-        public int score;
-        public int workers;
-    }
+    public int id;
+    public int score;
+    public int workers;
 }

@@ -1,57 +1,55 @@
-using System;
+namespace GameCore;
 
-namespace GameCore
+public class Core
 {
-    public class Core
+    private List<Player> players = new ();
+    private List<Tile> heapTiles = new ();
+    private List<List<Tile>> map = new();
+    private List<Terrain> terrains = new();
+    private bool standardRules = true;
+    private Random random;
+    private Tile currentTile;
+    
+    public Core(bool standardRules = true)
     {
-        private List<Player> players = new ();
-        private List<Tile> heapTiles = new ();
-        private List<List<Tile>> map = new();
-        private List<Terrain> terrains = new();
-        private bool standartRules = true;
-        private System.Random random;
-        private Tile currentTile;
-        public Core(bool standartRules = true)
-        {
-            this.standartRules = standartRules;
-            random = new System.Random();
-        }
+        this.standardRules = standardRules;
+        random = new Random();
+    }
 
-        public void addTile(Tile tile = null)
-        {
-            if (tile == null)
-                tile = currentTile;
+    public void addTile(Tile tile = null)
+    {
+        if (tile == null)
+            tile = currentTile;
 
-            if (tile != currentTile && standartRules)
-                throw new ArgumentException("You can send only current tile to addTile if standart rules are enabled "); // TODO: create more understandable text for exeception
-        }
+        if (tile != currentTile && standardRules)
+            throw new ArgumentException("You can send only current tile to addTile if standard rules are enabled "); // TODO: create more understandable text for exeception
+    }
 
-        public Tile getTile(bool removeFromHeap = true)
-        {
-            if (standartRules && currentTile != null)
-                throw new Exception(""); // TODO: explain exception properly
+    public Tile getTile(bool removeFromHeap = true)
+    {
+        if (standardRules && currentTile != null)
+            throw new Exception(""); // TODO: explain exception properly
             
-            int i = random.Next(0,heapTiles.Count);
-            currentTile = heapTiles[i];
+        int i = random.Next(0,heapTiles.Count);
+        currentTile = heapTiles[i];
         
-            if (removeFromHeap)
-                heapTiles.RemoveAt(i);
+        if (removeFromHeap)
+            heapTiles.RemoveAt(i);
             
-            return currentTile;
-        }
+        return currentTile;
+    }
 
-        public void addTile()
-        {
-            addTile(currentTile);
-        }
+    public void addTile()
+    {
+        addTile(currentTile);
+    }
 
-        public void addWorker()
-        {
+    public void addWorker()
+    {
 
-        }
-        public String getJson()
-        {
-            return "";
-        }
+    }
+    public String getJson()
+    {
+        return "";
     }
 }

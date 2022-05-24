@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\CarcassonneAI\\CarcassonneAI.csproj": {}
+    "C:\\Users\\Grisha\\Desktop\\CarcassonneAI\\CarcassonneAI.csproj": {}
   },
   "projects": {
-    "C:\\projects\\CarcassonneAI\\CarcassonneAI.csproj": {
+    "C:\\Users\\Grisha\\Desktop\\CarcassonneAI\\CarcassonneAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\CarcassonneAI\\CarcassonneAI.csproj",
+        "projectUniqueName": "C:\\Users\\Grisha\\Desktop\\CarcassonneAI\\CarcassonneAI.csproj",
         "projectName": "CarcassonneAI",
-        "projectPath": "C:\\projects\\CarcassonneAI\\CarcassonneAI.csproj",
-        "packagesPath": "C:\\Users\\konst\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\CarcassonneAI\\obj\\",
+        "projectPath": "C:\\Users\\Grisha\\Desktop\\CarcassonneAI\\CarcassonneAI.csproj",
+        "packagesPath": "C:\\Users\\Grisha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Grisha\\Desktop\\CarcassonneAI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\konst\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Grisha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
